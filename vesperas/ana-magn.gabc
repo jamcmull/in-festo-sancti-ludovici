@@ -1,6 +1,8 @@
 ﻿name: Magnificat gesta clarissima;
 initial-style: 1;
 mode: 6;
+annotation:{\textbf{\scriptsize Ad Magn.}};
+annotation:{\textbf{\scriptsize VI.F}};
 annotation: 6F;
 %%
 (c2)Ma(f)gní(ghf)fi(gh)cat(gf..) (;)

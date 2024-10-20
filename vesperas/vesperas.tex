@@ -1,0 +1,128 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[11pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[autocompile]{gregoriotex}
+
+\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1ex}{}
+\titleformat{\section}[block]{\LARGE\scshape\filcenter}{}{1ex}{}
+\titleformat{\subsection}[block]{\Large\scshape\filcenter}{}{1ex}{}
+\titleformat{\subsubsection}[block]{\large\bfseries\filcenter}{}{1ex}{}
+
+\newenvironment{versicles}{\par\leavevmode\parskip=0pt\nopagebreak}{}
+
+\begin{document}
+
+% TODO Small caps.
+
+\chapter*{{\Large In Festo\\} Sancti Ludovici.}
+\section*{Ad Vesperas.}
+
+\input{../oratio-ante.tex}
+
+Pater. Ave.
+
+\gresetinitiallines{1}
+\gregorioscore{../deus-in-adjutorium-solemn}
+
+\subsection*{Psalmus 109.}
+
+\gresetinitiallines{1}
+\gregorioscore{ana-1}
+
+\gresetinitiallines{0}
+\gregorioscore{ps109}
+
+\subsection*{Psalmus 110.}
+
+\gresetinitiallines{1}
+\gregorioscore{ana-2}
+
+\gresetinitiallines{0}
+\gregorioscore{ps110}
+
+\subsection*{Psalmus 111.}
+
+\gresetinitiallines{1}
+\gregorioscore{ana-3}
+
+\gresetinitiallines{0}
+\gregorioscore{ps111}
+
+\subsection*{Psalmus 112.}
+
+\gresetinitiallines{1}
+\gregorioscore{ana-4}
+
+\gresetinitiallines{0}
+\gregorioscore{ps112}
+
+\subsection*{Psalmus 116.}
+
+\gresetinitiallines{1}
+\gregorioscore{ana-5}
+
+\gresetinitiallines{0}
+\gregorioscore{ps116}
+
+\subsection*{Capitulum.}
+% TODO update.
+Fratres: Nescítis quod ii qui in stádio currunt,~\GreDagger\
+omnes quidem currunt, sed unus áccipit bravíum? Sic cúrrite ut comprehendátis.
+\Rbar.~Deo grátias.
+
+\subsection*{Hymnus.}
+
+\gresetinitiallines{1}
+\gregorioscore{hymn-gaude-mater-ecclesia}
+
+\begin{versicles}
+\Vbar. Dómine, refúgium factus es nobis.
+
+\Rbar. A generatióne et progénie.
+\end{versicles}
+
+\subsection*{Magnificat.}
+
+\gresetinitiallines{1}
+\gregorioscore{ana-magn}
+
+\gresetinitiallines{0}
+\gregorioscore{magnificat}
+
+\input{../oratio.tex}
+
+\gresetinitiallines{0}
+\gregorioscore{benedicamus-1v-solemn}
+
+\textit{In a low voice:}
+
+\begin{versicles}
+\Vbar.~Fidelium ánimæ, per misericórdiam Dei, requiéscant in pace.
+
+\Rbar.~Amen.
+\end{versicles}
+
+Pater.
+
+\begin{versicles}
+\Vbar. Dóminus det nobis suam pacem.
+
+\Rbar. Et vitam ætérnam. Amen.
+\end{versicles}
+
+Salve.
+
+\input{../oratio-post.tex}
+
+\end{document}

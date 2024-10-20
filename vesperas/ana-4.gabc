@@ -1,6 +1,8 @@
 ﻿name: Plebs ergo Francigena;
 mode: 4;
 initial-style: 1;
+annotation:{\textbf{\scriptsize 4. Ant.}};
+annotation:{\textbf{\scriptsize IV.E}};
 annotation: 4E;
 %%
 (c4) Plebs(cd) er(c_/dewf)go(f) Fran(fe)cí(fg)ge(fe)na,(e.) (;)

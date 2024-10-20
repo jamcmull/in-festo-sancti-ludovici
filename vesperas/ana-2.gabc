@@ -1,7 +1,8 @@
 ﻿name: Gaude regnum Franciae;
 initial-style: 1;
 mode: 2;
-annotation: 2D;
+annotation:{\textbf{\scriptsize 2. Ant.}};
+annotation:{\textbf{\scriptsize II.D}};
 %%
 (f3)Gau(gfh)de,(gf) re(g)gnum(f) Frán(FEC)ci(ef)æ,(f.) (;)
 cu(f)i(fe) de(hiwj)dit(i) Rex(ih) gló(i)ri(ij)æ(j.) (,)

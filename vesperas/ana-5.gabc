@@ -1,7 +1,8 @@
 ﻿name: In terris regimine;
 mode: 5;
 initial-style: 1;
-annotation: 5a;
+annotation:{\textbf{\scriptsize 5. Ant.}};
+annotation:{\textbf{\scriptsize V.a}};
 %%
 (c3)In(fgFE) ter(df/hhi)ris(h) re(ik)gí(k_j)mi(ih)ne(h.) (;)
 ac(f) sub(hhi) e(g)jus(GFE) nó(d)mi(e)ne(d.) (,)
